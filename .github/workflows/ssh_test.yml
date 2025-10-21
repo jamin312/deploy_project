@@ -19,5 +19,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd ~/deploy_project/server/public/
+            cd /${{ secrets.SSH_USER }}/deploy_project/server/public/
             ls -al
