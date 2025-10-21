@@ -11,7 +11,7 @@ app.get("/hello", (req, res) => {
 });
 
 app.get("/api/board", (req, res) => {
-  res.send({ title: "노드 api 서버 update!!" });
+  res.send({ title: "Build Deploy Test" });
 });
 
 const path = require("path");
